@@ -1,6 +1,22 @@
 # GameJam
 Jogo da GMTK Game Jam 2020
 
-Créditos:
+-----------
 
-Alan Garcia Beraja, Benício Alves, Gabriel da Silva Barros, Haru Sales, Yasmin Miho Tsuruta da Silva
+### Créditos:
+
+Alan Garcia Beraja *(Jubida)*
+- E-mail: berajaalan@gmail.com
+- Twitter: @Jubida_
+ 
+Benício Alves
+- E-mail: 
+
+Gabriel da Silva Barros
+- E-mail: 
+
+Haru Sales
+- E-mail: 
+
+Yasmin Miho Tsuruta da Silva
+- E-mail: 
