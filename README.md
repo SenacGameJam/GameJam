@@ -15,7 +15,7 @@ Benício Alves
 Gabriel da Silva Barros
 - E-mail: 
 
-Haru Sales
+Haru Sales *(Vand)*
 - E-mail: S2Haru@outlook.com
 - Twitter: @LinearHaru
 - Portifólio: https://www.tumblr.com/blog/linearharu
