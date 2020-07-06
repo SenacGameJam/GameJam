@@ -225,10 +225,18 @@
             "id": "b912195b-70f5-4f96-ae63-ba68f2278ebc",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Jump",
                     "type": "Button",
                     "id": "5b19d08a-2ee6-4d61-ae86-0a554710f6e8",
                     "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Walk",
+                    "type": "Value",
+                    "id": "26c9e511-aebd-4754-a235-535878b2fe92",
+                    "expectedControlType": "Stick",
                     "processors": "",
                     "interactions": ""
                 }
@@ -241,7 +249,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "New action",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
