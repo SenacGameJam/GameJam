@@ -23,4 +23,7 @@ Haru Sales *(Vand)*
 - Portifólio: https://www.tumblr.com/blog/linearharu
 
 Yasmin Miho Tsuruta da Silva
-- E-mail: 
+- E-mail: Yasmin.M.T.daSilva@gmail.com
+- [Artstation](artstation.com/yasminmiho)
+- Twitter: [@YasminSilva_Art](https://twitter.com/YasminSilva_Art)
+- [Site](https://yasminsilva-art.wixsite.com/artist)
