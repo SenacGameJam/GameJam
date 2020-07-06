@@ -7,7 +7,7 @@ Jogo da GMTK Game Jam 2020
 
 Alan Garcia Beraja *(Jubida)*
 - E-mail: berajaalan@gmail.com
-- Twitter: [@Jubida_](https://twitter.com/Jubida_)
+- Twitter: @Jubida_
  
 Benício Alves
 - E-mail: 
@@ -17,7 +17,7 @@ Gabriel da Silva Barros
 
 Haru Sales *(Vand)*
 - E-mail: S2Haru@outlook.com
-- Twitter: [@LinearHaru](https://twitter.com/LinearHaru)
+- Twitter: @LinearHaru
 - Portifólio: https://www.tumblr.com/blog/linearharu
 
 Yasmin Miho Tsuruta da Silva
