@@ -12,8 +12,10 @@ Alan Garcia Beraja *(Jubida)*
 Benício Alves
 - E-mail: 
 
-Gabriel da Silva Barros
-- E-mail: 
+Gabriel da Silva Barros *(TioLen)*
+- E-mail: silvagabr57@gmail.com
+- Twitter: 
+- Portfólio: tiolen.artstation.com
 
 Haru Sales *(Vand)*
 - E-mail: S2Haru@outlook.com
