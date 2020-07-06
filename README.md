@@ -19,8 +19,8 @@ Gabriel da Silva Barros *(TioLen)*
 
 Haru Sales *(Vand)*
 - E-mail: S2Haru@outlook.com
-- Twitter: @LinearHaru
-- Portifólio: https://www.tumblr.com/blog/linearharu
+- Twitter: [@LinearHaru](https://twitter.com/LinearHaru)
+- [Portifólio](https://www.tumblr.com/blog/linearharu)
 
 Yasmin Miho Tsuruta da Silva
 - E-mail: Yasmin.M.T.daSilva@gmail.com
