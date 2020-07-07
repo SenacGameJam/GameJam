@@ -7,7 +7,7 @@ Jogo da GMTK Game Jam 2020
 
 Alan Garcia Beraja *(Jubida)*
 - E-mail: berajaalan@gmail.com
-- Twitter: @Jubida_
+- Twitter: [@Jubida_](https://twitter.com/Jubida_)
  
 Benício Alves
 - E-mail: 
