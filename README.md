@@ -15,7 +15,7 @@ Benício Alves
 Gabriel da Silva Barros *(TioLen)*
 - E-mail: silvagabr57@gmail.com
 - Twitter: [@tiolen13](https://twitter.com/tiolen13)
-- [Portfólio] (https://tiolen.artstation.com)
+- [Portfólio](https://tiolen.artstation.com)
 
 Haru Sales *(Vand)*
 - E-mail: S2Haru@outlook.com
