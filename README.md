@@ -10,7 +10,10 @@ Alan Garcia Beraja *(Jubida)*
 - Twitter: [@Jubida_](https://twitter.com/Jubida_)
  
 Benício Alves
-- E-mail: 
+- E-mail: benicioalves43@gmail.com
+- Facebook: Benício Alves/ Benício Animation/ Bephotografy
+- Instagram: @bbenialves @benicioanimation @bephotografy_
+- Twitter: @benicioanimate
 
 Gabriel da Silva Barros *(TioLen)*
 - E-mail: silvagabr57@gmail.com
