@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class OptionsMenu : MonoBehaviour {
+public class SettingsMenu : MonoBehaviour {
 
     #region Video Settings
 
