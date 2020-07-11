@@ -9,9 +9,7 @@ public class SteeringWheel : MonoBehaviour {
     float direction;
     TargetJoint2D joint;
 
-    void Start() {
-        joint = GetComponent<TargetJoint2D>();
-    }
+    void Start() => joint = GetComponent<TargetJoint2D>();
 
     void FixedUpdate() {
 

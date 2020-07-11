@@ -271,6 +271,14 @@
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "TurnCarUp",
+                    "type": "Button",
+                    "id": "948c612d-67be-463e-aeae-0ce031d269f3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
                 }
             ],
             "bindings": [
@@ -419,12 +427,34 @@
                 },
                 {
                     "name": "",
-                    "id": "b1195c8c-0612-4685-aa85-9f8540e5b3ee",
-                    "path": "<XInputController>/leftTrigger",
-                    "interactions": "Press(behavior=2)",
+                    "id": "1cbc2d58-3913-4c45-bb49-cd9312f4498a",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
                     "processors": "",
                     "groups": "Xbox Controller",
                     "action": "Hold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d31e6f70-7326-4a53-bbc0-21f0b710141b",
+                    "path": "<XInputController>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller",
+                    "action": "TurnCarUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "431537de-0923-4a18-b8f3-59aa272ef3f0",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "TurnCarUp",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

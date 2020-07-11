@@ -284,6 +284,14 @@ public class @DefaultInput : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""TurnCarUp"",
+                    ""type"": ""Button"",
+                    ""id"": ""948c612d-67be-463e-aeae-0ce031d269f3"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Press""
                 }
             ],
             ""bindings"": [
@@ -432,12 +440,34 @@ public class @DefaultInput : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""b1195c8c-0612-4685-aa85-9f8540e5b3ee"",
-                    ""path"": ""<XInputController>/leftTrigger"",
-                    ""interactions"": ""Press(behavior=2)"",
+                    ""id"": ""1cbc2d58-3913-4c45-bb49-cd9312f4498a"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Xbox Controller"",
                     ""action"": ""Hold"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d31e6f70-7326-4a53-bbc0-21f0b710141b"",
+                    ""path"": ""<XInputController>/select"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Xbox Controller"",
+                    ""action"": ""TurnCarUp"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""431537de-0923-4a18-b8f3-59aa272ef3f0"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard and Mouse"",
+                    ""action"": ""TurnCarUp"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -487,6 +517,7 @@ public class @DefaultInput : IInputActionCollection, IDisposable
         m_Player_RightArm = m_Player.FindAction("RightArm", throwIfNotFound: true);
         m_Player_Hold = m_Player.FindAction("Hold", throwIfNotFound: true);
         m_Player_MoveSelected = m_Player.FindAction("MoveSelected", throwIfNotFound: true);
+        m_Player_TurnCarUp = m_Player.FindAction("TurnCarUp", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -591,6 +622,7 @@ public class @DefaultInput : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_RightArm;
     private readonly InputAction m_Player_Hold;
     private readonly InputAction m_Player_MoveSelected;
+    private readonly InputAction m_Player_TurnCarUp;
     public struct PlayerActions
     {
         private @DefaultInput m_Wrapper;
@@ -601,6 +633,7 @@ public class @DefaultInput : IInputActionCollection, IDisposable
         public InputAction @RightArm => m_Wrapper.m_Player_RightArm;
         public InputAction @Hold => m_Wrapper.m_Player_Hold;
         public InputAction @MoveSelected => m_Wrapper.m_Player_MoveSelected;
+        public InputAction @TurnCarUp => m_Wrapper.m_Player_TurnCarUp;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -628,6 +661,9 @@ public class @DefaultInput : IInputActionCollection, IDisposable
                 @MoveSelected.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMoveSelected;
                 @MoveSelected.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMoveSelected;
                 @MoveSelected.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMoveSelected;
+                @TurnCarUp.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTurnCarUp;
+                @TurnCarUp.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTurnCarUp;
+                @TurnCarUp.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTurnCarUp;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -650,6 +686,9 @@ public class @DefaultInput : IInputActionCollection, IDisposable
                 @MoveSelected.started += instance.OnMoveSelected;
                 @MoveSelected.performed += instance.OnMoveSelected;
                 @MoveSelected.canceled += instance.OnMoveSelected;
+                @TurnCarUp.started += instance.OnTurnCarUp;
+                @TurnCarUp.performed += instance.OnTurnCarUp;
+                @TurnCarUp.canceled += instance.OnTurnCarUp;
             }
         }
     }
@@ -686,5 +725,6 @@ public class @DefaultInput : IInputActionCollection, IDisposable
         void OnRightArm(InputAction.CallbackContext context);
         void OnHold(InputAction.CallbackContext context);
         void OnMoveSelected(InputAction.CallbackContext context);
+        void OnTurnCarUp(InputAction.CallbackContext context);
     }
 }

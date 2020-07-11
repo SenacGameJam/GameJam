@@ -12,8 +12,7 @@ public class GrabObjects : MonoBehaviour {
 
     void FixedUpdate() {
 
-        if (!canGrab)
-            grabing = false;
+        if (!canGrab) grabing = false;
 
         if (heldObject) {
             if (grabing) {
