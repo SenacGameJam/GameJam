@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Legs
+  m_Controller: {fileID: 9100000, guid: 69d65277ac5475d488c10fb4b5e20a1e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 2be3db0ab13a9d148adbffe45103b89e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 11de44eeef90d9040ab3f04142ace259, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9d0472b0446b14e469ae44e733d7ce74, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 46b89d6b1a3db5f40b4fefb40c98434c, type: 2}
