@@ -346,6 +346,7 @@ MonoBehaviour:
   rHand: {fileID: 7415472735419248670}
   lFoot: {fileID: 3979518624417913025}
   rFoot: {fileID: 5190887521187616867}
+  limbsColor: {r: 1, g: 0.85882354, b: 0.69411767, a: 1}
   limbsSpeed: 10
 --- !u!114 &2389885768902375282
 MonoBehaviour:

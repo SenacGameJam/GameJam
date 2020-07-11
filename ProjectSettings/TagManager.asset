@@ -16,6 +16,7 @@ TagManager:
   - 
   - Controls
   - CarObjects
+  - CarParts
   - 
   - 
   - 
@@ -36,8 +37,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - LimbsWalls
   m_SortingLayers:
   - name: Default
     uniqueID: 0

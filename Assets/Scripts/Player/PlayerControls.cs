@@ -8,6 +8,7 @@ public class PlayerControls : MonoBehaviour {
     public GameObject lArm, lLeg, rArm, rLeg;
     public GrabObjects lHand, rHand;
     public KickObjects lFoot, rFoot;
+    public Color limbsColor = new Color(255,219,177);
     [SerializeField] float limbsSpeed;
     Transform lArmTransform, lLegTransform, rArmTransform, rLegTransform;
     Rigidbody2D lArmRB, lLegRB, rArmRB, rLegRB;
@@ -34,6 +35,11 @@ public class PlayerControls : MonoBehaviour {
         rArmAnim = rArm.GetComponent<Animator>();
         lLegAnim = lLeg.GetComponent<Animator>();
         rLegAnim = rLeg.GetComponent<Animator>();
+
+        lArm.GetComponent<SpriteRenderer>().color = limbsColor;
+        lLeg.GetComponent<SpriteRenderer>().color = limbsColor;
+        rArm.GetComponent<SpriteRenderer>().color = limbsColor;
+        rLeg.GetComponent<SpriteRenderer>().color = limbsColor;
 
     }
     

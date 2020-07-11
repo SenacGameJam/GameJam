@@ -9,7 +9,7 @@ public class KickObjects : MonoBehaviour {
     float kickStrenght = 750;
     Rigidbody2D kickObject;
 
-    void Update() {
+    void FixedUpdate() {
 
         if (canKick) {
             if (kick) {
