@@ -9,7 +9,7 @@ public class PlayerControls : MonoBehaviour {
     public GrabObjects lHand, rHand;
     public KickObjects lFoot, rFoot;
     public Color limbsColor = new Color(255,219,177);
-    [SerializeField] float limbsSpeed;
+    [SerializeField] float limbsSpeed = 10;
     Transform lArmTransform, lLegTransform, rArmTransform, rLegTransform;
     Rigidbody2D lArmRB, lLegRB, rArmRB, rLegRB;
     Animator lArmAnim, lLegAnim, rArmAnim, rLegAnim;
