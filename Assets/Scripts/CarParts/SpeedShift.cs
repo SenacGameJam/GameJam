@@ -12,7 +12,7 @@ public class SpeedShift : MonoBehaviour {
 
     void Update() {
 
-        speed = joint.connectedAnchor.y - transform.position.y;
+        speed = Mathf.Clamp(joint.connectedAnchor.y - transform.position.y, -3, 1);
 
         car.accelerateInput = speed * -1;
 
